@@ -11,6 +11,8 @@ ADD requirements.txt $HOME/api_sample/
 
 ADD app.py $HOME/api_sample/
 
+ADD chinook.db $HOME/api_sample/
+
 RUN pip install -r requirements.txt
 
 USER app
