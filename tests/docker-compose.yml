@@ -1,0 +1,5 @@
+express_sample:
+  build: .
+  command: python tests/test_app.py
+  volumes:
+    - ..:/home/app/api_sample
