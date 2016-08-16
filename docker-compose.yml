@@ -1,0 +1,5 @@
+express_sample:
+  build: .
+  command: echo 'ready'
+  volumes:
+    - .:/home/app/api_sample
