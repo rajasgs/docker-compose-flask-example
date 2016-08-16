@@ -1,5 +1,5 @@
 express_sample:
   build: .
-  command: echo 'ready'
+  command: python app.py
   volumes:
     - .:/home/app/api_sample
