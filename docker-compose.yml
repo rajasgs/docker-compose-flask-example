@@ -3,3 +3,5 @@ express_sample:
   command: python app.py
   volumes:
     - .:/home/app/api_sample
+  ports:
+    - "8072:8072"
